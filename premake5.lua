@@ -18,3 +18,8 @@ project "ImGui"
 		"imstb_truetype.h",
 		"imgui_demo.cpp"
 	}
+	
+	filter "system:windows"
+		systemversion "latest"
+		staticruntime "On"
+		cppdialect "C++17"
